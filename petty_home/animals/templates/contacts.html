@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block contacts %}
+    {% load static %}
+    <div class="row">
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-8">
+            <h2 class="page-title">Контакты</h2>
+            <hr>
+            <p class="text-muted">Россия, Екатеринбург, ул. Сабаководов, д. 101</p>
+            <p class="text-muted">+ 7 343 999 99 99</p>
+            <p class="text-muted">info@mymail.com</p>
+            <hr>
+            <!--Google map-->
+            <div id="map-container-google-1" class="z-depth-1 map-container mb-5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d139774.65643505575!2d60.477299483090675!3d56.81199149315919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43c165eaa062db4b%3A0xd50243d7f7567f20!2z0JXQutCw0YLQtdGA0LjQvdCx0YPRgNCzLCDQodCy0LXRgNC00LvQvtCy0YHQutCw0Y8g0L7QsdC7Lg!5e0!3m2!1sru!2sru!4v1614763163943!5m2!1sru!2sru"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        <!--Google Maps-->
+        </div>
+        </div>
+        <div class="col-md-2">
+        </div>
+    </div>
+{% endblock %}
