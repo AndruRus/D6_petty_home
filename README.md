@@ -1,7 +1,7 @@
-# moduleD6_petty_home
+## D6_petty_home
 Cайт на Django 
 
-## Описание
+### Описание
 Проект "Приют для животных"
 
 Страничка на Heroku
